@@ -7,7 +7,7 @@
 </head>
 <body>
   <h2>KP Govt Salary Calculator</h2>
-  <h3>10% Adhoc on running basic pay and 15% DRA on Initial basic pay of 2017</h3>
+  <h3>10% Adhoc on running basic pay and 30% DRA on Initial basic pay of 2017</h3>
   <label for="basic">Enter Running Basic Pay:</label>
   <input type="number" id="basic" placeholder="e.g. 45070" />
   <label for="scale">Select BPS Scale:</label>
