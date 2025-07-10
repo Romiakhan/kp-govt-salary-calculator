@@ -22,7 +22,7 @@
       const b=parseFloat(document.getElementById("basic").value),
             s=document.getElementById("scale").value;
       if(!b||!s){alert("Enter basic and select scale");return;}
-      const adh=b*0.1, dra=initial2017Basic[s]*0.15, tot=adh+dra;
+      const adh=b*0.1, dra=const disparity = initial2017Basic[scale] * 0.30; tot=adh+dra;
       document.getElementById("result").innerHTML=`
         <strong>10% Adhoc Relief:</strong> Rs. ${adh.toFixed(2)}<br>
         <strong>15% Disparity Allowance:</strong> Rs. ${dra.toFixed(2)}<br><hr>
