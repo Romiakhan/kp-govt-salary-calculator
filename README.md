@@ -25,7 +25,7 @@
       const adh=b*0.1, dra=const disparity = initial2017Basic[scale] * 0.30; tot=adh+dra;
       document.getElementById("result").innerHTML=`
         <strong>10% Adhoc Relief:</strong> Rs. ${adh.toFixed(2)}<br>
-        <strong>15% Disparity Allowance:</strong> Rs. ${dra.toFixed(2)}<br><hr>
+        <strong>30% Disparity Allowance:</strong> Rs. ${dra.toFixed(2)}<br><hr>
         <strong>Total Increase:</strong> Rs. ${tot.toFixed(2)}`;
     }
   </script>
